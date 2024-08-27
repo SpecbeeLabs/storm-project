@@ -21,7 +21,8 @@
         "drupal/core-recommended": "^10.3",
         "drupal/dotenv": "^1.2",
         "drush/drush": "^12.5",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "oomphinc/composer-installers-extender": "^2.0",
+        "specbee/storm_cms": "1.x-dev"
     },
     "require-dev": {
         "specbee/drupal-quality-checker": "^1.3"

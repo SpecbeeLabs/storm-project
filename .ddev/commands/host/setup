@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+bold=$(tput bold)
+normal=$(tput sgr0)
+echo "${bold}Installing the site with Minimal Installation Profile.${normal}"
+ddev drush site:install --yes --account-pass admin --site-name="Storm CMS" minimal --db-url=mysql://db:db@db:3306/db
+echo ""
+echo "${bold}Applying the Storm CMS recipe.${normal}"
+ddev php -d max_execution_time=0 core/scripts/drupal recipe recipes/storm_cms -v
+echo "${bold}Rebuilding Cache${normal}"
+ddev drush cache:rebuild
+echo ""
+echo "${bold}Reinstalling the Navigation module.${normal}"
+ddev drush pm:uninstall navigation
+ddev drush pm:install navigation
+echo ""
+echo "${bold}Rebuilding Cache${normal}"
+ddev drush cache:rebuild
+echo ""
