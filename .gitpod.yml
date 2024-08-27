@@ -1,14 +1,15 @@
 image: drupalpod/drupalpod-gitpod-base:latest
 
 tasks:
-  - name: Setup
+  - name: Build application
     init: |
       ddev start -y
       ddev composer install
-      ddev drush site:install --yes --account-pass admin --site-name="Drupal" demo_umami --db-url=mysql://db:db@db:3306/db
+      ddev drush site:install --yes --account-pass admin --site-name="Drupal" standard --db-url=mysql://db:db@db:3306/db
+    command: gp sync-done build_application
   - name: Open Browser
     command: |
-      gp sync-await setup
+      gp sync-await build_application
       ddev start -y
       gp preview $(gp url 8080)
       ddev drush uli
