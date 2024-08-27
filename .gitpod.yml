@@ -8,8 +8,10 @@ tasks:
       ddev drush site:install --yes --account-pass admin --site-name="Drupal" demo_umami --db-url=mysql://db:db@db:3306/db
   - name: Open Browser
     command: |
+      gp sync-await setup
       ddev start -y
-      gp ports await 8080 && gp preview $(gp url 8080)
+      gp preview $(gp url 8080)
+      ddev drush uli
 ports:
   - port: 3306
     onOpen: ignore
