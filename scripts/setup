@@ -1,0 +1,27 @@
+#!/bin/bash
+set -e
+
+bold=$(tput bold)
+normal=$(tput sgr0)
+echo "${bold}Installing the site with Minimal Installation Profile.${normal}"
+vendor/bin/drush site:install --yes --account-pass admin --site-name="Storm CMS" minimal --db-url=mysql://db:db@db:3306/db
+echo ""
+echo "${bold}Applying the Storm CMS recipe.${normal}"
+php -d max_execution_time=0 core/scripts/drupal recipe recipes/storm_cms -v
+echo ""
+echo "${bold}Reinstalling the Navigation module.${normal}"
+vendor/bin/drush pm:uninstall navigation
+vendor/bin/drush pm:install navigation
+echo ""
+echo "${bold}Setting default theme${normal}"
+vendor/bin/drush theme:enable particle -y
+vendor/bin/drush config-set system.theme default particle -y
+echo ""
+echo "${bold}Rebuilding Cache${normal}"
+vendor/bin/drush cache:rebuild
+echo ""
+echo "${bold}Done.${normal}"
+echo ""
+echo "${bold}Generating login link${normal}"
+vendor/bin/drush user:login
+echo ""
