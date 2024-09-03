@@ -158,6 +158,7 @@
             "rm -rf web/themes/contrib",
             "rm -rf web/profiles/contrib",
             "rm -rf web/recipes",
+            "rm -rf web/libraries",
             "rm -rf vendor"
         ],
         "setup:local": [

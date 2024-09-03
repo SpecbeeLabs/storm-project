@@ -4,7 +4,7 @@ set -e
 bold=$(tput bold)
 normal=$(tput sgr0)
 echo "${bold}Installing the site with Minimal Installation Profile.${normal}"
-ddev drush site:install --yes --account-pass admin --site-name="Storm CMS" minimal --db-url=mysql://db:db@db:3306/db
+ddev drush site:install --yes --account-pass admin --site-name="StormCMS" minimal --db-url=mysql://db:db@db:3306/db
 echo ""
 echo "${bold}Applying the Storm CMS recipe.${normal}"
 ddev php -d max_execution_time=0 core/scripts/drupal recipe recipes/storm_cms -v
@@ -18,3 +18,7 @@ echo ""
 echo "${bold}Rebuilding Cache${normal}"
 ddev drush cache:rebuild
 echo ""
+echo "${bold}Launching the site as an Admin..${normal}"
+ULI="$(ddev drush uli)"
+ddev launch "${ULI}"
+
