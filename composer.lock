@@ -1487,17 +1487,17 @@
         },
         {
             "name": "drupal/addtocal_augment",
-            "version": "1.2.0-rc1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/addtocal_augment.git",
-                "reference": "1.2.0-rc1"
+                "reference": "1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/addtocal_augment-1.2.0-rc1.zip",
-                "reference": "1.2.0-rc1",
-                "shasum": "a6c885fb28c299a0a6e5935fd26f6b02a57e23e1"
+                "url": "https://ftp.drupal.org/files/projects/addtocal_augment-1.2.0.zip",
+                "reference": "1.2.0",
+                "shasum": "689ae8280dcef6954226f06bca0e78b4c2935f35"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10 || ^11",
@@ -1506,11 +1506,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.2.0-rc1",
-                    "datestamp": "1724576925",
+                    "version": "1.2.0",
+                    "datestamp": "1725915543",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2483,17 +2483,17 @@
         },
         {
             "name": "drupal/custom_field",
-            "version": "3.0.0-rc5",
+            "version": "3.0.0-rc6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/custom_field.git",
-                "reference": "3.0.0-rc5"
+                "reference": "3.0.0-rc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/custom_field-3.0.0-rc5.zip",
-                "reference": "3.0.0-rc5",
-                "shasum": "ead6c700f6905f6de7843044e91d270606f8a0e4"
+                "url": "https://ftp.drupal.org/files/projects/custom_field-3.0.0-rc6.zip",
+                "reference": "3.0.0-rc6",
+                "shasum": "4ea6f3a45b6c8e0587e74402bc030410c7990a44"
             },
             "require": {
                 "drupal/core": "^10.2 || ^11.0"
@@ -2507,8 +2507,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.0-rc5",
-                    "datestamp": "1724622527",
+                    "version": "3.0.0-rc6",
+                    "datestamp": "1725903717",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -3641,6 +3641,10 @@
                 {
                     "name": "anybody",
                     "homepage": "https://www.drupal.org/user/291091"
+                },
+                {
+                    "name": "grevil",
+                    "homepage": "https://www.drupal.org/user/3668491"
                 },
                 {
                     "name": "hydra",
@@ -10380,12 +10384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpecbeeLabs/storm_cms_demo_contents.git",
-                "reference": "fb01697298bd4ad42c32031e90c25412c3fed8df"
+                "reference": "1ac5396c32a92ea928cb7138d1b65ee44742ab41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_demo_contents/zipball/fb01697298bd4ad42c32031e90c25412c3fed8df",
-                "reference": "fb01697298bd4ad42c32031e90c25412c3fed8df",
+                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_demo_contents/zipball/1ac5396c32a92ea928cb7138d1b65ee44742ab41",
+                "reference": "1ac5396c32a92ea928cb7138d1b65ee44742ab41",
                 "shasum": ""
             },
             "require": {
@@ -10407,7 +10411,7 @@
                 "issues": "https://github.com/SpecbeeLabs/storm_cms_demo_contents/issues",
                 "source": "https://github.com/SpecbeeLabs/storm_cms_demo_contents/tree/1.x"
             },
-            "time": "2024-09-06T12:20:10+00:00"
+            "time": "2024-09-09T10:52:38+00:00"
         },
         {
             "name": "specbee/storm_cms_editor",
@@ -10454,12 +10458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpecbeeLabs/storm_cms_event.git",
-                "reference": "36863802e0069fcef525f10167f08db5a8d0c1ec"
+                "reference": "1d35e3ae0e20a828c5eec4c713694ab7e4341504"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_event/zipball/36863802e0069fcef525f10167f08db5a8d0c1ec",
-                "reference": "36863802e0069fcef525f10167f08db5a8d0c1ec",
+                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_event/zipball/1d35e3ae0e20a828c5eec4c713694ab7e4341504",
+                "reference": "1d35e3ae0e20a828c5eec4c713694ab7e4341504",
                 "shasum": ""
             },
             "require": {
@@ -10494,7 +10498,7 @@
                 "issues": "https://github.com/SpecbeeLabs/storm_cms_event/issues",
                 "source": "https://github.com/SpecbeeLabs/storm_cms_event/tree/1.x"
             },
-            "time": "2024-08-28T06:46:15+00:00"
+            "time": "2024-09-09T06:38:25+00:00"
         },
         {
             "name": "specbee/storm_cms_layout_builder",
@@ -10656,12 +10660,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpecbeeLabs/storm_cms_person.git",
-                "reference": "b4e056fd29257b520d1e01441e3c1de77b1d79ed"
+                "reference": "221180842bcc5143e69d853114566bd40c2966ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_person/zipball/b4e056fd29257b520d1e01441e3c1de77b1d79ed",
-                "reference": "b4e056fd29257b520d1e01441e3c1de77b1d79ed",
+                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_person/zipball/221180842bcc5143e69d853114566bd40c2966ea",
+                "reference": "221180842bcc5143e69d853114566bd40c2966ea",
                 "shasum": ""
             },
             "require": {
@@ -10683,7 +10687,7 @@
                 "issues": "https://github.com/SpecbeeLabs/storm_cms_person/issues",
                 "source": "https://github.com/SpecbeeLabs/storm_cms_person/tree/1.x"
             },
-            "time": "2024-08-28T05:33:03+00:00"
+            "time": "2024-09-09T06:16:10+00:00"
         },
         {
             "name": "specbee/storm_cms_press_release",
@@ -12314,34 +12318,26 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.30.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "10112722600777e02d2745716b70c5db4ca70442"
+                "reference": "fa2ae56c44f03bed91a39bfc9822e31e7c5c38ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/10112722600777e02d2745716b70c5db4ca70442",
-                "reference": "10112722600777e02d2745716b70c5db4ca70442",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/fa2ae56c44f03bed91a39bfc9822e31e7c5c38ce",
+                "reference": "fa2ae56c44f03bed91a39bfc9822e31e7c5c38ce",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
-            "type": "library",
+            "type": "metapackage",
             "extra": {
                 "thanks": {
                     "name": "symfony/polyfill",
                     "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php72\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -12367,7 +12363,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.30.0"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.31.0"
             },
             "funding": [
                 {
@@ -12383,24 +12379,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-19T12:30:46+00:00"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.30.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "77fa7995ac1b21ab60769b7323d600a991a90433"
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/77fa7995ac1b21ab60769b7323d600a991a90433",
-                "reference": "77fa7995ac1b21ab60769b7323d600a991a90433",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "type": "library",
             "extra": {
@@ -12447,7 +12443,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
             },
             "funding": [
                 {
@@ -12463,24 +12459,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T15:07:36+00:00"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-php81",
-            "version": "v1.30.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php81.git",
-                "reference": "3fb075789fb91f9ad9af537c4012d523085bd5af"
+                "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/3fb075789fb91f9ad9af537c4012d523085bd5af",
-                "reference": "3fb075789fb91f9ad9af537c4012d523085bd5af",
+                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+                "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "type": "library",
             "extra": {
@@ -12523,7 +12519,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php81/tree/v1.30.0"
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.31.0"
             },
             "funding": [
                 {
@@ -12539,7 +12535,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-19T12:30:46+00:00"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-php83",
@@ -14696,16 +14692,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.2",
+            "version": "1.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0ca1c7bb55fca8fe6448f16fff0f311ccec960a1"
+                "reference": "0fcbf194ab63d8159bb70d9aa3e1350051632009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0ca1c7bb55fca8fe6448f16fff0f311ccec960a1",
-                "reference": "0ca1c7bb55fca8fe6448f16fff0f311ccec960a1",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0fcbf194ab63d8159bb70d9aa3e1350051632009",
+                "reference": "0fcbf194ab63d8159bb70d9aa3e1350051632009",
                 "shasum": ""
             },
             "require": {
@@ -14750,7 +14746,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-05T16:09:28+00:00"
+            "time": "2024-09-09T08:10:35+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -15051,7 +15047,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/config_sync_without_site_uuid": 10,
-        "specbee/storm_cms": 20
+        "specbee/storm_cms": 20,
+        "specbee/storm_cms_demo_contents": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

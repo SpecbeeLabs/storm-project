@@ -5,6 +5,9 @@
  * Functions to support theming in the Particle theme.
  */
 
+use Drupal\Core\Link;
+use Drupal\Core\Url;
+
 /**
  * Implements hook_preprocess_HOOK() for html.html.twig.
  */
@@ -23,5 +26,17 @@ function particle_preprocess_page(array &$variables): void {
  * Implements hook_preprocess_HOOK() for node.html.twig.
  */
 function particle_preprocess_node(array &$variables): void {
+  $node = $variables['node'];
+  if ($node->bundle() == 'article') {
+    $references = $node->field_authors->getValue();
+    $authors = [];
+    foreach ($references as $reference) {
+      $entity = \Drupal::entityTypeManager()->getStorage('node')->load($reference['target_id']);
+      $url = Url::fromRoute('entity.node.canonical', ['node' => $entity->id()]);
+      $link = Link::fromTextAndUrl($entity->label(), $url);
+      $authors[] = $link->toRenderable();
+    }
 
+    $variables['authors'] = $authors;
+  }
 }
