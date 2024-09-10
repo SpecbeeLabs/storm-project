@@ -10194,12 +10194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpecbeeLabs/storm_cms_article.git",
-                "reference": "50f5bb04ad92087b9693195fb3e9b027d086a88c"
+                "reference": "bdde2a300301f4a52d9f6c7524bcb68ac70be379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_article/zipball/50f5bb04ad92087b9693195fb3e9b027d086a88c",
-                "reference": "50f5bb04ad92087b9693195fb3e9b027d086a88c",
+                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_article/zipball/bdde2a300301f4a52d9f6c7524bcb68ac70be379",
+                "reference": "bdde2a300301f4a52d9f6c7524bcb68ac70be379",
                 "shasum": ""
             },
             "require": {
@@ -10222,7 +10222,7 @@
                 "issues": "https://github.com/SpecbeeLabs/storm_cms_article/issues",
                 "source": "https://github.com/SpecbeeLabs/storm_cms_article/tree/1.x"
             },
-            "time": "2024-09-04T05:14:37+00:00"
+            "time": "2024-09-10T07:18:33+00:00"
         },
         {
             "name": "specbee/storm_cms_components",
@@ -10384,12 +10384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpecbeeLabs/storm_cms_demo_contents.git",
-                "reference": "1ac5396c32a92ea928cb7138d1b65ee44742ab41"
+                "reference": "ec4dfb7e65651655805eb3f230c6678188908295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_demo_contents/zipball/1ac5396c32a92ea928cb7138d1b65ee44742ab41",
-                "reference": "1ac5396c32a92ea928cb7138d1b65ee44742ab41",
+                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_demo_contents/zipball/ec4dfb7e65651655805eb3f230c6678188908295",
+                "reference": "ec4dfb7e65651655805eb3f230c6678188908295",
                 "shasum": ""
             },
             "require": {
@@ -10411,7 +10411,7 @@
                 "issues": "https://github.com/SpecbeeLabs/storm_cms_demo_contents/issues",
                 "source": "https://github.com/SpecbeeLabs/storm_cms_demo_contents/tree/1.x"
             },
-            "time": "2024-09-09T10:52:38+00:00"
+            "time": "2024-09-10T07:12:31+00:00"
         },
         {
             "name": "specbee/storm_cms_editor",
@@ -10660,12 +10660,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpecbeeLabs/storm_cms_person.git",
-                "reference": "221180842bcc5143e69d853114566bd40c2966ea"
+                "reference": "4fcccf1bb78ed42939ebf13b4c5004cb946e506d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_person/zipball/221180842bcc5143e69d853114566bd40c2966ea",
-                "reference": "221180842bcc5143e69d853114566bd40c2966ea",
+                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms_person/zipball/4fcccf1bb78ed42939ebf13b4c5004cb946e506d",
+                "reference": "4fcccf1bb78ed42939ebf13b4c5004cb946e506d",
                 "shasum": ""
             },
             "require": {
@@ -10687,7 +10687,7 @@
                 "issues": "https://github.com/SpecbeeLabs/storm_cms_person/issues",
                 "source": "https://github.com/SpecbeeLabs/storm_cms_person/tree/1.x"
             },
-            "time": "2024-09-09T06:16:10+00:00"
+            "time": "2024-09-10T07:18:49+00:00"
         },
         {
             "name": "specbee/storm_cms_press_release",
