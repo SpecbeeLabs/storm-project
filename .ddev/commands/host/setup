@@ -11,6 +11,9 @@ ddev php -d max_execution_time=0 core/scripts/drupal recipe recipes/storm_cms -v
 echo "${bold}Rebuilding Cache${normal}"
 ddev drush cache:rebuild
 echo ""
+echo "${bold}Creating default contents.${normal}"
+ddev php -d max_execution_time=0 core/scripts/drupal recipe recipes/storm_cms_demo_contents -v
+echo ""
 echo "${bold}Reinstalling the Navigation module.${normal}"
 ddev drush pm:uninstall navigation
 ddev drush pm:install navigation
