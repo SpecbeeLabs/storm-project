@@ -1,0 +1,17 @@
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+
+{% embed "particle:teaser-card" with {
+  attributes: attributes.addClass(classes),
+  title: label,
+  url: url
+} %}
+  {% block image %}
+    {{ content.field_image }}
+  {% endblock %}
+{% endembed %}

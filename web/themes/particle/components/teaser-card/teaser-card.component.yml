@@ -1,0 +1,23 @@
+name: Card Teaser
+status: stable
+props:
+  type: object
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+      title: Attributes
+      description: Card attributes.
+    title_attributes:
+      type: Drupal\Core\Template\Attribute
+      title: Attributes
+      description: Title attributes.
+    title:
+      type: string
+      title: Title
+    url:
+      type: string
+      title: URL
+slots:
+  image:
+    title: Image
+    description: The teaser card image

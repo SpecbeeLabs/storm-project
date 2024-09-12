@@ -1,0 +1,8 @@
+<article{{attributes.addClass('teaser')}}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+  <div class="teaser__image"> {% block image %}{% endblock %} </div>
+  <h2{{title_attributes.addClass('teaser__title')}}>
+    <a href="{{ url }}" rel="bookmark">{{ title }}</a>
+  </h2>
+</article>
