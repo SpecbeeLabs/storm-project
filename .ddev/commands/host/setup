@@ -21,6 +21,9 @@ echo ""
 echo "${bold}Rebuilding Cache${normal}"
 ddev drush cache:rebuild
 echo ""
+echo "${bold}Enabling the Demo theme${normal}"
+ddev drush theme:install particle
+ddev drush config:set system.theme default particle
 echo "${bold}Launching the site as an Admin..${normal}"
 ULI="$(ddev drush uli)"
 ddev launch "${ULI}"

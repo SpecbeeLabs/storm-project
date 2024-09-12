@@ -10,3 +10,7 @@
   background-color: var(--color--gray-100);
   margin-block-end: var(--sp2);
 }
+
+.layout {
+  margin-block-end: 0;
+}
